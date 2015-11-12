@@ -3,6 +3,8 @@
 
 The world is in your hand! Look up direction and traffic time via command prompt!
 
+![example](example.png)
+
 ## Install
 ```bash
 npm i -g google-maps-direction-cli

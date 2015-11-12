@@ -3,13 +3,24 @@
   "version": "1.0.0",
   "description": "google maps direction cli",
   "main": "index.js",
+  "homepage": "https://github.com/yujinlim/google-maps-direction-cli",
   "scripts": {
     "test": "ava"
   },
   "bin": {
     "direction": "cli.js"
   },
-  "author": "Yu Jin",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yujinlim/google-maps-direction-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yujinlim/google-maps-direction-cli/issues"
+  },
+  "author": {
+    "name": "Yu Jin",
+    "email": "adamlyj89@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.1",
@@ -21,5 +32,13 @@
     "bluebird": "^3.0.5",
     "ava": "^0.4.2",
     "proxyquire": "^1.7.3"
-  }
+  },
+  "keywords": [
+    "google maps direction",
+    "google maps",
+    "google map",
+    "direction",
+    "google",
+    "map"
+  ]
 }
