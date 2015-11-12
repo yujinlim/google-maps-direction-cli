@@ -1,0 +1,25 @@
+{
+  "name": "google-maps-direction-cli",
+  "version": "1.0.0",
+  "description": "google maps direction cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "bin": {
+    "direction": "cli.js"
+  },
+  "author": "Yu Jin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "google-maps-direction": "^1.0.0",
+    "meow": "^3.5.0",
+    "striptags": "^2.0.4"
+  },
+  "devDependencies": {
+    "bluebird": "^3.0.5",
+    "ava": "^0.4.2",
+    "proxyquire": "^1.7.3"
+  }
+}
